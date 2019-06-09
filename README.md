@@ -7,7 +7,7 @@ A template for kick starting a Cloudflare worker project with validation of Auth
 [`auth0-jwt-validation.js`](https://github.com/bcnzer/cloudflare-worker-template-auth0-jwt/blob/master/auth0-jwt-validation.js) is where all the validation work occurs. 
 
 ## Setting up your JWK
-**IMPORTANT** You must setup your JWK info in code, in [`auth0-jwt-validation.js`](https://github.com/bcnzer/cloudflare-worker-template-auth0-jwt/auth0-jwt-validation.js')
+**IMPORTANT** You must setup your JWK info in code, in [`auth0-jwt-validation.js`](https://github.com/bcnzer/cloudflare-worker-template-auth0-jwt/blob/master/auth0-jwt-validation.js)
 
 You can get your JWK info from `https://[your_domain].auth0.com/.well-known/jwks.json`
 
